@@ -1,0 +1,173 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Navigasi dan Logo */
+
+.navigasi {
+    position: fixed;
+    background-color: bisque;
+    width: 100%;
+    list-style-type: none;
+    text-align: right;
+    z-index: 100;
+    padding: 10px 0px 10px 0px;
+}
+
+.navigasi li {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.navigasi li a {
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+
+.navigasi li a:hover {
+    color: black;
+}
+
+.logo {
+    float: left;
+    margin: auto;
+    padding-left: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Germania One', cursive;
+    color: dimgray;
+}
+
+.logo a {
+    text-decoration: none;
+    color: grey;
+}
+
+
+/* Home */
+
+.homebackground {
+    width: 100%;
+    height: 1500px;
+}
+
+.quotes1 {
+    margin-top: -1000px;
+    margin-left: 300px;
+    width: 550px;
+    height: 300px;
+    text-align: justify;
+    font-family: font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: chocolate;
+    font-size: 45px;
+    z-index: 50;
+}
+
+.albert1 {
+    margin-top: -35px;
+    margin-left: 300px;
+    width: 530px;
+    height: 300px;
+    text-align: justify;
+    font-family: font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    color: chocolate;
+    font-size: 45px;
+    z-index: 50;
+}
+
+
+/* About Us */
+
+.aboutus {
+    font-size: 30px;
+    color: black;
+    width: 100%;
+    margin-top: 400px;
+    display: inline-block;
+    text-align: center;
+}
+
+.aboutus img {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    overflow: hidden;
+    filter: grayscale(100%);
+}
+
+.aboutus img:hover {
+    filter: none;
+}
+
+.text {
+    margin: auto;
+    padding: 20px 0px 0px 0px;
+    text-align: justify;
+    width: 600px;
+    height: 300px;
+    font-size: 25px;
+}
+
+
+/* portofolios */
+
+.portfolios {
+    width: 100%;
+    height: 900px;
+    background-color: grey;
+    text-align: center;
+    margin: auto;
+}
+
+.portfolios h1 {
+    margin-top: 10%;
+    margin: auto;
+    font-family: Helvetica, sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+}
+
+.portfolios li {
+    width: 100%;
+    padding: 2%;
+    list-style: none;
+    display: inline;
+}
+
+.portfolios img {
+    margin-top: 5%;
+    width: 40%;
+    height: 500px;
+    border-radius: 5%;
+    filter: grayscale(100%)
+}
+
+.portfolios img:hover {
+    filter: none;
+}
+
+
+/* contact us / footer */
+
+.contactus {
+    float: right;
+    text-align: justify;
+    width: 15em;
+    height: 20em;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+.contactus h1 {
+    font-weight: bolder;
+    font-size: 2em;
+}
